@@ -1,5 +1,0 @@
- - S - single
- - O 
- - L
- - I
- - D

@@ -17,65 +17,87 @@
 ## Displaying Formula 
 
 
-| Math                                                     | Code                                                       |     |
-| :------------------------------------------------------- | :--------------------------------------------------------- | --- |
-| $\perp$                                                  | \perp                                                      |     |
-| $\times$                                                 | \times                                                     |     |
-| $^\circ$                                                 | ^\circ                                                     |     |
-| $f^\prime$                                               | f^\prime                                                   |     |
-| $\pm$                                                    | \pm                                                        |     |
-| →                                                        | \rightarrow или \to                                        |     |
-| ⇔                                                        | \Leftrightarrow или \iff                                   |     |
-| ⋅                                                        | \cdot                                                      |     |
-| ⇒                                                        | \Rightarrow или \implies                                   |     |
-| ∨                                                        | \vee или \lor                                              |     |
-| ∧                                                        | \wedge или \land                                           |     |
-| ¬                                                        | \neg или \lnot                                             |     |
-| ∀                                                        | \forall                                                    |     |
-| ∃                                                        | \exists                                                    |     |
-| $x = y$                                                  | `$x = y$                         `                         |     |
-| $x < y$                                                  | `$x < y$                         `                         |     |
-| $x > y$                                                  | `$x > y$                         `                         |     |
-| $x \le y$                                                | `$x \le y$                       `                         |     |
-| $x \ge y$                                                | `$x \ge y$                       `                         |     |
-| $x^{n}$                                                  | `$x^{n}$                         `                         |     |
-| $x_{n}$                                                  | `$x_{n}$                         `                         |     |
-| $\overline{x}$                                           | `$\overline{x}$                  `                         |     |
-| $\hat{x}$                                                | `$\hat{x}$                       `                         |     |
-| $\tilde{x}$                                              | `$\tilde{x}$                     `                         |     |
-| $\frac{a}{b}$                                            | `$\frac{a}{b}$                   `                         |     |
-| $\displaystyle \frac{a}{b}$                              | `$\displaystyle \frac{a}{b}$     `                         |     |
-| $\binom{n}{k}$                                           | `$\binom{n}{k}$                  `                         |     |
-| $x_{1} + x_{2} + \cdots + x_{n}$                         | `$x_{1} + x_{2} + \cdots + x_{n}$`                         |     |
-| $x_{1}, x_{2}, \dots, x_{n}$                             | `$x_{1}, x_{2}, \dots, x_{n}$    `                         |     |
-| $\mathbf{x} = \langle x_{1}, x_{2}, \dots, x_{n}\rangle$ | `$\mathbf{x} = \langle x_{1}, x_{2}, \dots, x_{n}\rangle$` |     |
-| $x \in A$                                                | `$x \in A$`                                                |     |
-| $\|A\|$                                                  | `$\|A\|$`                                                  |     |
-| $x \in A$                                                | `$x \in A$`                                                |     |
-| $x \subset B$                                            | `$x \subset B$`                                            |     |
-| $x \subseteq B$                                          | `$x \subseteq B$ `                                         |     |
-| $A \cup B$                                               | `$A \cup B$`                                               |     |
-| $A \cap B$                                               | `$A \cap B$ `                                              |     |
-| $X \sim {\sf Binom}(n, \pi)$                             | `X \sim {\sf Binom}(n, \pi)$`                              |     |
-| $\mathrm{P}(X \le x) = {\tt pbinom}(x, n, \pi)$          | `$\mathrm{P}(X \le x) = {\tt pbinom}(x, n, \pi)$  `        |     |
-| $P(A \mid B)$                                            | `$P(A \mid B)$`                                            |     |
-| $\mathrm{P}(A \mid B)$                                   | `$\mathrm{P}(A \mid B)$`                                   |     |
-| $\{1, 2, 3\}$                                            | `$\{1, 2, 3\}$`                                            |     |
-| $\sin(x)$                                                | `$\sin(x)$`                                                |     |
-| $\log(x)$                                                | `$\log(x)$`                                                |     |
-| $\int_{a}^{b}$                                           | `$\int_{a}^{b}$`                                           |     |
-| $\left(\int_{a}^{b} f(x) \; dx\right)$                   | `$\left(\int_{a}^{b} f(x) \; dx\right)$`                   |     |
-| $\left[\int_{-\infty}^{\infty} f(x) \; dx\right]$        | `$\left[\int_{\-infty}^{\infty} f(x) \; dx\right]$`        |     |
-| $\left. F(x) \right\|_{a}^{b}$                           | `$\left. F(x) \right\|_{a}^{b}$`                           |     |
-| $\sum_{x = a}^{b} f(x)$                                  | `$\sum_{x = a}^{b} f(x)$`                                  |     |
-| $\prod_{x = a}^{b} f(x)$                                 | `$\prod_{x = a}^{b} f(x)$`                                 |     |
-| $\lim_{x \to \infty} f(x)$                               | `$\lim_{x \to \infty} f(x)`                                |     |
-| $\displaystyle \lim_{x \to \infty} f(x)$                 | `$\displaystyle \lim_{x \to \infty} f(x)$`                 |     |
-| $\bigcup_{j=1}^{\infty}$                                 | `$\bigcup_{j=1}^{\infty}$`                                 |     |
-| $\varnothing$                                            | `\varnothing`                                              |     |
-| $\sqrt[3]{a}$<br><br>                                    | `\sqrt[3]{a}`                                              |     |
-| $\lfloor$                                                | `$\lfloor$`                                                |     |
-| $\rfloor$                                                | `$\rfloor$`                                                |     |
+| Math                                                     | Code                                                       |     |     |
+| :------------------------------------------------------- | :--------------------------------------------------------- | --- | --- |
+| $\begin{pmatrix} a & b \\ c & d \end{pmatrix}$           | `\begin{pmatrix} a & b \\ c & d \end{pmatrix}`             |     |     |
+| $\begin{bmatrix} a & b \\ c & d \end{bmatrix}$           | `\begin{bmatrix} a & b \\ c & d \end{bmatrix}`             |     |     |
+| $\begin{Bmatrix} a & b \\ c & d \end{Bmatrix}$           | `\begin{Bmatrix} a & b \\ c & d \end{Bmatrix}`             |     |     |
+| $\begin{vmatrix} a & b \\ c & d \end{vmatrix}$           | `\begin{vmatrix} a & b \\ c & d \end{vmatrix}`             |     |     |
+| $\begin{Vmatrix} a & b \\ c & d \end{Vmatrix}$           | `\begin{Vmatrix} a & b \\ c & d \end{Vmatrix}`             |     |     |
+| $\begin{matrix} a & b \\ c & d \end{matrix}$             | `\begin{matrix} a & b \\ c & d \end{matrix}`               |     |     |
+| $\det(A)$                                                | `\det(A)`                                                  |     |     |
+| $A^{-1}$                                                 | `A^{-1}`                                                   |     |     |
+| $A^T$                                                    | `A^T`                                                      |     |     |
+| $A^\top$                                                 | `A^\top`                                                   |     |     |
+| $\operatorname{tr}(A)$                                   | `\operatorname{tr}(A)`                                     |     |     |
+| $\operatorname{rank}(A)$                                 | `\operatorname{rank}(A)`                                   |     |     |
+| $I_n$                                                    | `I_n`                                                      |     |     |
+| $\mathbf{0}$                                             | `\mathbf{0}`                                               |     |     |
+| $\vec{v}$                                                | `\vec{v}`                                                  |     |     |
+| $\otimes$                                                | `\otimes`                                                  |     |     |
+| $\oplus$                                                 | `\oplus`                                                   |     |     |
+| $\langle u, v \rangle$                                   | `\langle u, v \rangle`                                     |     |     |
+| $\lambda$                                                | `\lambda`                                                  |     |     |
+| $\vdots$                                                 | `\vdots`                                                   |     |     |
+| $\ddots$                                                 | `\ddots`                                                   |     |     |
+| $\cdots$                                                 | `\cdots`                                                   |     |     |
+| $\perp$                                                  | \perp                                                      |     |     |
+| $\times$                                                 | \times                                                     |     |     |
+| $^\circ$                                                 | ^\circ                                                     |     |     |
+| $f^\prime$                                               | f^\prime                                                   |     |     |
+| $\pm$                                                    | \pm                                                        |     |     |
+| →                                                        | \rightarrow или \to                                        |     |     |
+| ⇔                                                        | \Leftrightarrow или \iff                                   |     |     |
+| ⋅                                                        | \cdot                                                      |     |     |
+| ⇒                                                        | \Rightarrow или \implies                                   |     |     |
+| ∨                                                        | \vee или \lor                                              |     |     |
+| ∧                                                        | \wedge или \land                                           |     |     |
+| ¬                                                        | \neg или \lnot                                             |     |     |
+| ∀                                                        | \forall                                                    |     |     |
+| ∃                                                        | \exists                                                    |     |     |
+| $x = y$                                                  | `$x = y$                         `                         |     |     |
+| $x < y$                                                  | `$x < y$                         `                         |     |     |
+| $x > y$                                                  | `$x > y$                         `                         |     |     |
+| $x \le y$                                                | `$x \le y$                       `                         |     |     |
+| $x \ge y$                                                | `$x \ge y$                       `                         |     |     |
+| $x^{n}$                                                  | `$x^{n}$                         `                         |     |     |
+| $x_{n}$                                                  | `$x_{n}$                         `                         |     |     |
+| $\overline{x}$                                           | `$\overline{x}$                  `                         |     |     |
+| $\hat{x}$                                                | `$\hat{x}$                       `                         |     |     |
+| $\tilde{x}$                                              | `$\tilde{x}$                     `                         |     |     |
+| $\frac{a}{b}$                                            | `$\frac{a}{b}$                   `                         |     |     |
+| $\displaystyle \frac{a}{b}$                              | `$\displaystyle \frac{a}{b}$     `                         |     |     |
+| $\binom{n}{k}$                                           | `$\binom{n}{k}$                  `                         |     |     |
+| $x_{1} + x_{2} + \cdots + x_{n}$                         | `$x_{1} + x_{2} + \cdots + x_{n}$`                         |     |     |
+| $x_{1}, x_{2}, \dots, x_{n}$                             | `$x_{1}, x_{2}, \dots, x_{n}$    `                         |     |     |
+| $\mathbf{x} = \langle x_{1}, x_{2}, \dots, x_{n}\rangle$ | `$\mathbf{x} = \langle x_{1}, x_{2}, \dots, x_{n}\rangle$` |     |     |
+| $x \in A$                                                | `$x \in A$`                                                |     |     |
+| $\|A\|$                                                  | `$\|A\|$`                                                  |     |     |
+| $x \in A$                                                | `$x \in A$`                                                |     |     |
+| $x \subset B$                                            | `$x \subset B$`                                            |     |     |
+| $x \subseteq B$                                          | `$x \subseteq B$ `                                         |     |     |
+| $A \cup B$                                               | `$A \cup B$`                                               |     |     |
+| $A \cap B$                                               | `$A \cap B$ `                                              |     |     |
+| $X \sim {\sf Binom}(n, \pi)$                             | `X \sim {\sf Binom}(n, \pi)$`                              |     |     |
+| $\mathrm{P}(X \le x) = {\tt pbinom}(x, n, \pi)$          | `$\mathrm{P}(X \le x) = {\tt pbinom}(x, n, \pi)$  `        |     |     |
+| $P(A \mid B)$                                            | `$P(A \mid B)$`                                            |     |     |
+| $\mathrm{P}(A \mid B)$                                   | `$\mathrm{P}(A \mid B)$`                                   |     |     |
+| $\{1, 2, 3\}$                                            | `$\{1, 2, 3\}$`                                            |     |     |
+| $\sin(x)$                                                | `$\sin(x)$`                                                |     |     |
+| $\log(x)$                                                | `$\log(x)$`                                                |     |     |
+| $\int_{a}^{b}$                                           | `$\int_{a}^{b}$`                                           |     |     |
+| $\left(\int_{a}^{b} f(x) \; dx\right)$                   | `$\left(\int_{a}^{b} f(x) \; dx\right)$`                   |     |     |
+| $\left[\int_{-\infty}^{\infty} f(x) \; dx\right]$        | `$\left[\int_{\-infty}^{\infty} f(x) \; dx\right]$`        |     |     |
+| $\left. F(x) \right\|_{a}^{b}$                           | `$\left. F(x) \right\|_{a}^{b}$`                           |     |     |
+| $\sum_{x = a}^{b} f(x)$                                  | `$\sum_{x = a}^{b} f(x)$`                                  |     |     |
+| $\prod_{x = a}^{b} f(x)$                                 | `$\prod_{x = a}^{b} f(x)$`                                 |     |     |
+| $\lim_{x \to \infty} f(x)$                               | `$\lim_{x \to \infty} f(x)`                                |     |     |
+| $\displaystyle \lim_{x \to \infty} f(x)$                 | `$\displaystyle \lim_{x \to \infty} f(x)$`                 |     |     |
+| $\bigcup_{j=1}^{\infty}$                                 | `$\bigcup_{j=1}^{\infty}$`                                 |     |     |
+| $\varnothing$                                            | `\varnothing`                                              |     |     |
+| $\sqrt[3]{a}$<br><br>                                    | `\sqrt[3]{a}`                                              |     |     |
+| $\lfloor$                                                | `$\lfloor$`                                                |     |     |
+| $\rfloor$                                                | `$\rfloor$`                                                |     |     |
 
 $$I_A(x)=
 \left\{

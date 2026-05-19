@@ -1,0 +1,19 @@
+{
+  "types": {
+    "aliases": "aliases",
+    "cssclasses": "multitext",
+    "tags": "tags",
+    "определения": "multitext",
+    "связанные определения": "multitext",
+    "свойства": "multitext",
+    "связанные свойства": "multitext",
+    "дата решения": "date",
+    "повтор": "checkbox",
+    "время решения": "number",
+    "дата_решения": "date",
+    "раздел": "text",
+    "подраздел": "multitext",
+    "источник_шад": "checkbox",
+    "год_шад": "number"
+  }
+}

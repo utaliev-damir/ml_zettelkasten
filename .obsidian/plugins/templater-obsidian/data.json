@@ -1,0 +1,78 @@
+{
+  "command_timeout": 5,
+  "templates_folder": "_templates",
+  "templates_pairs": [
+    [
+      "",
+      ""
+    ]
+  ],
+  "trigger_on_file_creation": true,
+  "auto_jump_to_cursor": false,
+  "enable_system_commands": false,
+  "shell_path": "",
+  "user_scripts_folder": "",
+  "enable_folder_templates": true,
+  "folder_templates": [
+    {
+      "folder": "Алгоритмы",
+      "template": "_templates/Алгоритм.md"
+    },
+    {
+      "folder": "Задачи",
+      "template": "_templates/Задача.md"
+    },
+    {
+      "folder": "Методы",
+      "template": "_templates/Метод.md"
+    },
+    {
+      "folder": "Определения",
+      "template": "_templates/Определение.md"
+    },
+    {
+      "folder": "Свойства",
+      "template": "_templates/Свойство.md"
+    },
+    {
+      "folder": "Сигналы",
+      "template": "_templates/Сигнал.md"
+    },
+    {
+      "folder": "Структуры и типы данных",
+      "template": "_templates/Структуры и типы данных.md"
+    },
+    {
+      "folder": "Теоремы",
+      "template": "_templates/Теорема.md"
+    },
+    {
+      "folder": "Теория алгоритмов",
+      "template": "_templates/Теория алгоритмов.md"
+    },
+    {
+      "folder": "MOC",
+      "template": "_templates/MOC.md"
+    },
+    {
+      "folder": "_weeks",
+      "template": "_templates/Неделя.md"
+    }
+  ],
+  "enable_file_templates": false,
+  "file_templates": [
+    {
+      "regex": ".*",
+      "template": ""
+    }
+  ],
+  "syntax_highlighting": true,
+  "syntax_highlighting_mobile": false,
+  "enabled_templates_hotkeys": [
+    ""
+  ],
+  "startup_templates": [
+    ""
+  ],
+  "intellisense_render": 1
+}

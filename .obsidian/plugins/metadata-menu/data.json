@@ -1,0 +1,234 @@
+{
+  "presetFields": [
+    {
+      "type": "MultiFile",
+      "tagName": "file",
+      "icon": "link",
+      "tooltip": "Accepts multiple internal links",
+      "colorClass": "file",
+      "options": {
+        "dvQueryString": "dv.pages('\"Свойства\"')"
+      },
+      "name": "свойства",
+      "id": "08dT48",
+      "path": ""
+    },
+    {
+      "type": "MultiFile",
+      "tagName": "file",
+      "icon": "link",
+      "tooltip": "Accepts multiple internal links",
+      "colorClass": "file",
+      "options": {
+        "dvQueryString": "dv.pages('\"Сигналы\"')"
+      },
+      "name": "сигналы",
+      "id": "CUHJoi",
+      "path": "",
+      "command": {
+        "id": "insert__CUHJoi",
+        "icon": "list-plus",
+        "label": "Insert сигналы field"
+      }
+    },
+    {
+      "tagName": "file",
+      "icon": "link",
+      "colorClass": "file",
+      "type": "MultiFile",
+      "tooltip": "Accepts multiple internal links",
+      "options": {
+        "dvQueryString": "dv.pages('\"Задачи\"')"
+      },
+      "name": "ключевые_задачи",
+      "id": "E2WfMJ",
+      "path": ""
+    },
+    {
+      "type": "MultiFile",
+      "tagName": "file",
+      "icon": "link",
+      "tooltip": "Accepts multiple internal links",
+      "colorClass": "file",
+      "options": {
+        "dvQueryString": "dv.pages('\"Теоремы\"')"
+      },
+      "name": "теоремы",
+      "id": "PWxYxR",
+      "path": ""
+    },
+    {
+      "type": "Select",
+      "tagName": "select",
+      "icon": "right-triangle",
+      "tooltip": "Accepts a single value from a list",
+      "colorClass": "select",
+      "options": {
+        "sourceType": "ValuesList",
+        "valuesList": {
+          "1": "easy",
+          "2": "medium",
+          "3": "hard"
+        }
+      },
+      "name": "сложность",
+      "id": "YkVFeJ",
+      "path": ""
+    },
+    {
+      "type": "Select",
+      "tagName": "select",
+      "icon": "right-triangle",
+      "tooltip": "Accepts a single value from a list",
+      "colorClass": "select",
+      "options": {
+        "sourceType": "ValuesList",
+        "valuesList": {
+          "1": "2026",
+          "2": "2025",
+          "3": "2024",
+          "4": "2023",
+          "5": "<=2022"
+        }
+      },
+      "name": "год_шад",
+      "id": "cG5Pre",
+      "path": ""
+    },
+    {
+      "type": "MultiFile",
+      "tagName": "file",
+      "icon": "link",
+      "tooltip": "Accepts multiple internal links",
+      "colorClass": "file",
+      "options": {
+        "dvQueryString": "dv.pages('\"Алгоритмы\"')"
+      },
+      "name": "алгоритмы",
+      "id": "cv0KFJ",
+      "path": ""
+    },
+    {
+      "type": "MultiFile",
+      "tagName": "file",
+      "icon": "link",
+      "tooltip": "Accepts multiple internal links",
+      "colorClass": "file",
+      "options": {
+        "dvQueryString": "dv.pages('\"Методы\"')"
+      },
+      "name": "методы",
+      "id": "m3etIc",
+      "path": ""
+    },
+    {
+      "type": "MultiFile",
+      "tagName": "file",
+      "icon": "link",
+      "tooltip": "Accepts multiple internal links",
+      "colorClass": "file",
+      "options": {
+        "dvQueryString": "dv.pages('\"Структуры и типы данных\"')"
+      },
+      "name": "структуры",
+      "id": "n1kKXh",
+      "path": ""
+    },
+    {
+      "type": "Select",
+      "tagName": "select",
+      "icon": "right-triangle",
+      "tooltip": "Accepts a single value from a list",
+      "colorClass": "select",
+      "options": {
+        "sourceType": "ValuesList",
+        "valuesList": {
+          "1": "код",
+          "2": "вывод",
+          "3": "доказательство",
+          "4": "численная"
+        }
+      },
+      "name": "формат",
+      "id": "n6XTPV",
+      "path": ""
+    },
+    {
+      "type": "MultiFile",
+      "tagName": "file",
+      "icon": "link",
+      "tooltip": "Accepts multiple internal links",
+      "colorClass": "file",
+      "options": {
+        "dvQueryString": "dv.pages('\"Определения\"')"
+      },
+      "name": "определения",
+      "id": "ov8wsC",
+      "path": ""
+    },
+    {
+      "type": "MultiFile",
+      "tagName": "file",
+      "icon": "link",
+      "tooltip": "Accepts multiple internal links",
+      "colorClass": "file",
+      "options": {
+        "dvQueryString": "dv.pages('\"Задачи\"')"
+      },
+      "name": "задачи",
+      "id": "oxGpzi",
+      "path": ""
+    },
+    {
+      "type": "Select",
+      "tagName": "select",
+      "icon": "right-triangle",
+      "tooltip": "Accepts a single value from a list",
+      "colorClass": "select",
+      "options": {
+        "sourceType": "ValuesList",
+        "valuesList": {
+          "1": "вступительный тест",
+          "2": "онлайн экзамен",
+          "3": "олимпиада",
+          "4": "собеседование"
+        }
+      },
+      "name": "стадия_шад",
+      "id": "pcVSaM",
+      "path": ""
+    }
+  ],
+  "fileClassQueries": [],
+  "displayFieldsInContextMenu": true,
+  "globallyIgnoredFields": [],
+  "classFilesPath": null,
+  "isAutosuggestEnabled": true,
+  "fileClassAlias": "fileClass",
+  "settingsVersion": "5.28",
+  "firstDayOfWeek": 1,
+  "enableLinks": true,
+  "enableTabHeader": true,
+  "enableEditor": true,
+  "enableBacklinks": true,
+  "enableStarred": true,
+  "enableFileExplorer": true,
+  "enableSearch": true,
+  "enableProperties": true,
+  "tableViewMaxRecords": 20,
+  "frontmatterListDisplay": "asArray",
+  "fileClassExcludedFolders": [],
+  "showIndexingStatusInStatusBar": true,
+  "fileIndexingExcludedFolders": [],
+  "fileIndexingExcludedExtensions": [
+    ".excalidraw.md"
+  ],
+  "fileIndexingExcludedRegex": [],
+  "frontmatterOnly": false,
+  "showFileClassSelectInModal": true,
+  "chooseFileClassAtFileCreation": false,
+  "autoInsertFieldsAtFileClassInsertion": false,
+  "fileClassIcon": "package",
+  "isAutoCalculationEnabled": true,
+  "disableDataviewPrompt": false
+}

@@ -97,7 +97,7 @@
     "repelStrength": 10,
     "linkStrength": 1,
     "linkDistance": 250,
-    "scale": 0.3213363860503682,
+    "scale": 0.8854989970473607,
     "close": true
   },
   "openInNewTab": false,
@@ -327,7 +327,7 @@
   "filterAbstractFiles": [],
   "ignoreInlineLinks": false,
   "collapseState": true,
-  "collapseLegend": true,
+  "collapseLegend": false,
   "resetAfterChanges": false,
   "collapsedSettings": {
     "automation": true,

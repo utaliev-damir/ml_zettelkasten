@@ -90,15 +90,15 @@
     "collapse-display": false,
     "showArrow": false,
     "textFadeMultiplier": 0,
-    "nodeSizeMultiplier": 1,
+    "nodeSizeMultiplier": 1.47224438902743,
     "lineSizeMultiplier": 1.15912094763092,
     "collapse-forces": false,
     "centerStrength": 0.399688279301746,
     "repelStrength": 12.6234413965087,
     "linkStrength": 1,
     "linkDistance": 96,
-    "scale": 1.2414544698282721,
-    "close": false
+    "scale": 0.8854989400709727,
+    "close": true
   },
   "openInNewTab": false,
   "canonicalizePropertiesWithDataview": true,

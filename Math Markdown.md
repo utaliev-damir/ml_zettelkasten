@@ -2,18 +2,18 @@
 #mathmd 
 
 
-|     |                          |
-| --- | ------------------------ |
-| →   | \rightarrow или \to      |
-| ⇔   | \Leftrightarrow или \iff |
-| ⋅   | \cdot                    |
-| ⇒   | \Rightarrow или \implies |
-| ∨   | \vee или \lor            |
-| ∧   | \wedge или \land         |
-| ¬   | \neg или \lnot           |
-| ∀   | \forall                  |
-| ∃   | \exists                  |
-|     |                          |
+|               |                          |
+| ------------- | ------------------------ |
+| →             | \rightarrow или \to      |
+| ⇔             | \Leftrightarrow или \iff |
+| ⋅             | \cdot                    |
+| ⇒             | \Rightarrow или \implies |
+| ∨             | \vee или \lor            |
+| ∧             | \wedge или \land         |
+| ¬             | \neg или \lnot           |
+| ∀             | \forall                  |
+| ∃             | \exists                  |
+| $\mathbin{⊜}$ | \mathbin{⊜}              |
 ## Displaying Formula 
 
 

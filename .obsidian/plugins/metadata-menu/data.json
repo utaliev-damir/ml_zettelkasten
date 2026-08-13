@@ -7,7 +7,7 @@
       "tooltip": "Accepts multiple internal links",
       "colorClass": "file",
       "options": {
-        "dvQueryString": "dv.pages('\"Свойства\"')"
+        "dvQueryString": "dv.pages('\"Math - свойства\"')"
       },
       "name": "свойства",
       "id": "08dT48",
@@ -51,7 +51,7 @@
       "tooltip": "Accepts multiple internal links",
       "colorClass": "file",
       "options": {
-        "dvQueryString": "dv.pages('\"Теоремы\"')"
+        "dvQueryString": "dv.pages('\"Math - теоремы\"')"
       },
       "name": "теоремы",
       "id": "PWxYxR",
@@ -102,7 +102,7 @@
       "tooltip": "Accepts multiple internal links",
       "colorClass": "file",
       "options": {
-        "dvQueryString": "dv.pages('\"Алгоритмы\"')"
+        "dvQueryString": "dv.pages('\"Algos - алгоритмы\"')"
       },
       "name": "алгоритмы",
       "id": "cv0KFJ",
@@ -115,7 +115,7 @@
       "tooltip": "Accepts multiple internal links",
       "colorClass": "file",
       "options": {
-        "dvQueryString": "dv.pages('\"Методы\"')"
+        "dvQueryString": "dv.pages('\"Math - методы\"')"
       },
       "name": "методы",
       "id": "m3etIc",
@@ -128,7 +128,7 @@
       "tooltip": "Accepts multiple internal links",
       "colorClass": "file",
       "options": {
-        "dvQueryString": "dv.pages('\"Структуры и типы данных\"')"
+        "dvQueryString": "dv.pages('\"Algos - структуры данных\"')"
       },
       "name": "структуры",
       "id": "n1kKXh",
@@ -160,7 +160,7 @@
       "tooltip": "Accepts multiple internal links",
       "colorClass": "file",
       "options": {
-        "dvQueryString": "dv.pages('\"Определения\"')"
+        "dvQueryString": "dv.pages('\"Math - определения\"')"
       },
       "name": "определения",
       "id": "ov8wsC",
@@ -196,6 +196,32 @@
       },
       "name": "стадия_шад",
       "id": "pcVSaM",
+      "path": ""
+    },
+    {
+      "type": "MultiFile",
+      "tagName": "file",
+      "icon": "link",
+      "colorClass": "file",
+      "tooltip": "Раздел",
+      "options": {
+        "dvQueryString": "dv.pages('\"_структура/разделы\"')"
+      },
+      "name": "раздел",
+      "id": "RZDL01",
+      "path": ""
+    },
+    {
+      "type": "MultiFile",
+      "tagName": "file",
+      "icon": "link",
+      "colorClass": "file",
+      "tooltip": "Подраздел",
+      "options": {
+        "dvQueryString": "dv.pages('\"_структура/подразделы\"')"
+      },
+      "name": "подраздел",
+      "id": "PDRZ01",
       "path": ""
     }
   ],

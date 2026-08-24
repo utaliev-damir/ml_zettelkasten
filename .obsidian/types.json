@@ -14,7 +14,7 @@
     "раздел": "multitext",
     "подраздел": "multitext",
     "источник_шад": "checkbox",
-    "год_шад": "number",
+    "год_шад": "text",
     "ml_методы": "multitext"
   }
 }

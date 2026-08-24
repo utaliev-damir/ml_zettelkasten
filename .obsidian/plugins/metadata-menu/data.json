@@ -38,10 +38,36 @@
       "type": "MultiFile",
       "tooltip": "Accepts multiple internal links",
       "options": {
+        "dvQueryString": "dv.pages('\"Code - понятия\"')"
+      },
+      "name": "понятия",
+      "id": "DGNCet",
+      "path": ""
+    },
+    {
+      "type": "MultiFile",
+      "tagName": "file",
+      "icon": "link",
+      "tooltip": "Accepts multiple internal links",
+      "colorClass": "file",
+      "options": {
         "dvQueryString": "dv.pages('\"Задачи\"')"
       },
       "name": "ключевые_задачи",
       "id": "E2WfMJ",
+      "path": ""
+    },
+    {
+      "type": "MultiFile",
+      "tagName": "file",
+      "icon": "link",
+      "tooltip": "Подраздел",
+      "colorClass": "file",
+      "options": {
+        "dvQueryString": "dv.pages('\"_структура/подразделы\"')"
+      },
+      "name": "подраздел",
+      "id": "PDRZ01",
       "path": ""
     },
     {
@@ -55,6 +81,19 @@
       },
       "name": "теоремы",
       "id": "PWxYxR",
+      "path": ""
+    },
+    {
+      "type": "MultiFile",
+      "tagName": "file",
+      "icon": "link",
+      "tooltip": "Раздел",
+      "colorClass": "file",
+      "options": {
+        "dvQueryString": "dv.pages('\"_структура/разделы\"')"
+      },
+      "name": "раздел",
+      "id": "RZDL01",
       "path": ""
     },
     {
@@ -199,29 +238,16 @@
       "path": ""
     },
     {
-      "type": "MultiFile",
       "tagName": "file",
       "icon": "link",
       "colorClass": "file",
-      "tooltip": "Раздел",
-      "options": {
-        "dvQueryString": "dv.pages('\"_структура/разделы\"')"
-      },
-      "name": "раздел",
-      "id": "RZDL01",
-      "path": ""
-    },
-    {
       "type": "MultiFile",
-      "tagName": "file",
-      "icon": "link",
-      "colorClass": "file",
-      "tooltip": "Подраздел",
+      "tooltip": "Accepts multiple internal links",
       "options": {
-        "dvQueryString": "dv.pages('\"_структура/подразделы\"')"
+        "dvQueryString": "dv.pages('\"Code - приёмы\"')"
       },
-      "name": "подраздел",
-      "id": "PDRZ01",
+      "name": "приёмы",
+      "id": "kDEi5p",
       "path": ""
     }
   ],
@@ -231,7 +257,7 @@
   "classFilesPath": null,
   "isAutosuggestEnabled": true,
   "fileClassAlias": "fileClass",
-  "settingsVersion": "5.28",
+  "settingsVersion": "5.32",
   "firstDayOfWeek": 1,
   "enableLinks": true,
   "enableTabHeader": true,

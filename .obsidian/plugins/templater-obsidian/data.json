@@ -77,6 +77,22 @@
     {
       "folder": "ML - оценивание",
       "template": "_шаблоны/Оценивание ML.md"
+    },
+    {
+      "folder": "Py - приёмы",
+      "template": "_шаблоны/Приём Python.md"
+    },
+    {
+      "folder": "Инструменты",
+      "template": "_шаблоны/Инструмент.md"
+    },
+    {
+      "folder": "Code - понятия",
+      "template": "_шаблоны/Понятие кода.md"
+    },
+    {
+      "folder": "Code - приёмы",
+      "template": "_шаблоны/Приём.md"
     }
   ],
   "enable_file_templates": false,

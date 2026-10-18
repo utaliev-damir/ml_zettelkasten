@@ -1,0 +1,31 @@
+{
+	"nodes":[
+		{"id":"830ddf66a74001d8","x":-200,"y":-200,"width":400,"height":240,"color":"1","type":"text","text":"# **Числовой ряд** \nэто сумма членов последовательности $\\sum_{k=1}^{k\\to\\infty}a_k$, частичная сумма это $\\sum_{k=1}^{n}a_k$\n\nЧисловой ряд сходится если частичная сумма имеет предел $\\lim_{n\\to\\infty}\\sum_{k=1}^{n}a_k=C$, в противном случае расходится. \n"},
+		{"id":"30b7d1d4a6c340b0","x":-480,"y":240,"width":409,"height":168,"type":"text","text":"**Абсолютная сходимость**\n\nЕсли $\\sum |a_n|$ сходится, то и $\\sum a_n$ сходится, так как ряд с модулем в любом случае больше, чем без него, а раз большее сходится, то по теореме сравнения, сходится и меньший ряд."},
+		{"id":"d97ddb89f4399988","x":120,"y":240,"width":480,"height":120,"type":"text","text":"**Критерий Коши**\n\n$\\forall\\; \\varepsilon>0\\; \\exists\\; N(\\varepsilon): \\;\\forall n,\\forall m>1\\ N(\\varepsilon)<n\\implies |\\sum_{k=n+1}^{n+m} a_k|<\\varepsilon$"},
+		{"id":"54f0a24c482b554f","x":-130,"y":-340,"width":260,"height":60,"color":"5","type":"text","text":"## **Признаки сходимости**"},
+		{"id":"7b97f3e6db67ad0e","x":-800,"y":-540,"width":440,"height":260,"type":"text","text":"**Предельный признак сходимости**\nПусть есть два неотрицательных с какого то члена ряда \n$\\sum a_k$ и $\\sum b_k$ и если $\\lim_{k\\to\\infty}\\frac{a_k}{b_k}=L$ и $0<L<+\\infty$  то ряды сходятся или расходятся одновременно\n\nУ членов последовательности одинаковый порядок малости, то есть ведут себя примерно одинаково, а раз один сходится/расходится, то и другой тоже\n\n"},
+		{"id":"80061555c8b61122","x":-800,"y":-180,"width":440,"height":240,"type":"text","text":"**Теорема сравнения**\nПусть есть два ряда \n$\\sum a_k$ и $\\sum b_k$ и $c>0$ и $0\\leq a_k \\leq c\\cdot b_k$, тогда:\n\n1) Если $\\sum b_k$ сходится, то и $\\sum a_k$ сходится\n2) Если $\\sum a_k$ расходится, то и $\\sum b_k$ расходится"},
+		{"id":"c601ce38814be09c","type":"text","text":"**Здесь  члены последовательностей неотрицательные**","x":-580,"y":-1060,"width":220,"height":123,"color":"6"},
+		{"id":"269c6e47004197ed","x":-1020,"y":-760,"width":220,"height":70,"color":"6","type":"text","text":"**Здесь сравниваются два ряда**"},
+		{"id":"5e32a530af469cdb","x":-300,"y":-860,"width":275,"height":379,"type":"text","text":"**Признак Даламбера**\n\nПусть дан ряд $\\sum a_k$ и $a_k>0$, тогда  $$\\lim_{k\\to\\infty}\\frac{a_{k+1}}{a_k}=\\rho$$ если:\n1) $\\rho>1$ ряд расходится\n2) $\\rho<1$ ряд cходится\n3) $\\rho=1$ не известно\n"},
+		{"id":"f14ee1cc3e6ae062","type":"text","text":"**Радикальный признак Коши**\n\nПусть дан ряд $\\sum a_k$ и $a_k>0$, тогда  $$\\lim_{k\\to\\infty}\\sqrt[k]a_k=\\rho$$ если:\n1) $\\rho>1$ ряд расходится\n2) $\\rho<1$ ряд cходится\n3) $\\rho=1$ не известно","x":28,"y":-860,"width":345,"height":379},
+		{"id":"b14722adedfd042a","x":420,"y":-860,"width":340,"height":379,"type":"text","text":"**Признак Лейбница**\n\nПусть дан знако-чередующийся ряд \n$\\sum (-1)^{k+1} a_k$ \n\nесли\n1) $b_1\\ge b_2\\ge b_3\\ge b_k$\n2) $b_k\\to0$\n3) $b_k>0$, знаки чередования вынесены\n\nто ряд сходится\n"},
+		{"id":"33089f4040077328","type":"text","text":"**Признак Раабе**\n\nТут формула, если по ней есть предел, то ряд сходится","x":820,"y":-860,"width":320,"height":379}
+	],
+	"edges":[
+		{"id":"39b273a6b75b0b77","fromNode":"830ddf66a74001d8","fromSide":"left","toNode":"80061555c8b61122","toSide":"right"},
+		{"id":"13f715f664adbcc6","fromNode":"830ddf66a74001d8","fromSide":"top","toNode":"54f0a24c482b554f","toSide":"bottom"},
+		{"id":"9364234aabda3982","fromNode":"830ddf66a74001d8","fromSide":"bottom","toNode":"30b7d1d4a6c340b0","toSide":"top"},
+		{"id":"feb24fad9dfeaa1f","fromNode":"830ddf66a74001d8","fromSide":"bottom","toNode":"d97ddb89f4399988","toSide":"top"},
+		{"id":"1531975fdb34820e","fromNode":"54f0a24c482b554f","fromSide":"top","toNode":"5e32a530af469cdb","toSide":"bottom"},
+		{"id":"bff2b70c798606be","fromNode":"54f0a24c482b554f","fromSide":"left","toNode":"7b97f3e6db67ad0e","toSide":"right"},
+		{"id":"9c0b445ff78a50e2","fromNode":"54f0a24c482b554f","fromSide":"top","toNode":"f14ee1cc3e6ae062","toSide":"bottom"},
+		{"id":"fe347538cff32177","fromNode":"c601ce38814be09c","fromSide":"left","toNode":"269c6e47004197ed","toSide":"top"},
+		{"id":"ef3b70aef275da1e","fromNode":"c601ce38814be09c","fromSide":"right","toNode":"5e32a530af469cdb","toSide":"top"},
+		{"id":"ac8158163d4d11e2","fromNode":"c601ce38814be09c","fromSide":"right","toNode":"f14ee1cc3e6ae062","toSide":"top"},
+		{"id":"7ead1ae96f7118c0","fromNode":"54f0a24c482b554f","fromSide":"right","toNode":"b14722adedfd042a","toSide":"bottom"},
+		{"id":"ede156167c40cffd","fromNode":"269c6e47004197ed","fromSide":"bottom","toNode":"7b97f3e6db67ad0e","toSide":"left"},
+		{"id":"7adad90a4ff18d5e","fromNode":"269c6e47004197ed","fromSide":"bottom","toNode":"80061555c8b61122","toSide":"left"}
+	]
+}

@@ -32,11 +32,11 @@
       }
     },
     {
+      "type": "MultiFile",
       "tagName": "file",
       "icon": "link",
-      "colorClass": "file",
-      "type": "MultiFile",
       "tooltip": "Accepts multiple internal links",
+      "colorClass": "file",
       "options": {
         "dvQueryString": "dv.pages('\"Code - понятия\"')"
       },
@@ -154,6 +154,19 @@
       "tooltip": "Accepts multiple internal links",
       "colorClass": "file",
       "options": {
+        "dvQueryString": "dv.pages('\"Code - приёмы\"')"
+      },
+      "name": "приёмы",
+      "id": "kDEi5p",
+      "path": ""
+    },
+    {
+      "type": "MultiFile",
+      "tagName": "file",
+      "icon": "link",
+      "tooltip": "Accepts multiple internal links",
+      "colorClass": "file",
+      "options": {
         "dvQueryString": "dv.pages('\"Math - методы\"')"
       },
       "name": "методы",
@@ -244,10 +257,10 @@
       "type": "MultiFile",
       "tooltip": "Accepts multiple internal links",
       "options": {
-        "dvQueryString": "dv.pages('\"Code - приёмы\"')"
+        "dvQueryString": "dv.pages('\"Algos - определения\"')"
       },
-      "name": "приёмы",
-      "id": "kDEi5p",
+      "name": "определения алгоритмов",
+      "id": "mELOFn",
       "path": ""
     }
   ],
@@ -257,7 +270,7 @@
   "classFilesPath": null,
   "isAutosuggestEnabled": true,
   "fileClassAlias": "fileClass",
-  "settingsVersion": "5.32",
+  "settingsVersion": "5.34",
   "firstDayOfWeek": 1,
   "enableLinks": true,
   "enableTabHeader": true,

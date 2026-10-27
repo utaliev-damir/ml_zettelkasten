@@ -1,0 +1,41 @@
+{
+	"nodes":[
+		{"id":"g_ref","type":"group","x":-1250,"y":1660,"width":1000,"height":640,"label":"Справочник"},
+		{"id":"legend","type":"text","text":"### Как читать\n\nИдём сверху вниз. Фиолетовые блоки — вопросы, на стрелках — ответы. Зелёный — проверка ответа.","x":-1250,"y":0,"width":460,"height":200},
+		{"id":"start","type":"text","text":"## Найти интеграл","x":-230,"y":0,"width":460,"height":130,"color":"2"},
+		{"id":"d_kind","type":"text","text":"### Шаг 1. Какой интеграл?","x":-230,"y":210,"width":460,"height":110,"color":"6"},
+		{"id":"d_form","type":"text","text":"### Неопределённый $\\int f(x)\\,dx$\n**Как выглядит $f(x)$?**","x":-230,"y":440,"width":460,"height":130,"color":"6"},
+		{"id":"m_parts","type":"text","text":"### По частям\n\n$$\\int u\\,dv = uv - \\int v\\,du$$\n\nЗа $u$ берём то, что упрощается при дифференцировании:\n- многочлен $\\cdot\\, e^x, \\sin x, \\cos x$ → $u$ = многочлен\n- многочлен $\\cdot\\, \\ln x, \\operatorname{arctg} x$ → $u = \\ln x$ или $\\operatorname{arctg} x$\n\nПример:\n$$\\int x e^x dx = x e^x - \\int e^x dx = (x-1)e^x + C.$$","x":-410,"y":720,"width":400,"height":460},
+		{"id":"table","type":"text","text":"### Таблица интегралов (везде $+C$)\n\n| Функция | Первообразная |\n|---|---|\n| $x^a$, $\\;a \\ne -1$ | $\\frac{x^{a+1}}{a+1}$ |\n| $\\frac1x$ | $\\ln\\lvert x\\rvert$ |\n| $e^x$, $\\;a^x$ | $e^x$, $\\;\\frac{a^x}{\\ln a}$ |\n| $\\sin x$, $\\;\\cos x$ | $-\\cos x$, $\\;\\sin x$ |\n| $\\frac{1}{\\cos^2 x}$, $\\;\\frac{1}{\\sin^2 x}$ | $\\operatorname{tg} x$, $\\;-\\operatorname{ctg} x$ |\n| $\\frac{1}{x^2+a^2}$ | $\\frac1a\\operatorname{arctg}\\frac{x}{a}$ |\n| $\\frac{1}{x^2-a^2}$ | $\\frac{1}{2a}\\ln\\left\\lvert\\frac{x-a}{x+a}\\right\\rvert$ |\n| $\\frac{1}{\\sqrt{a^2-x^2}}$ | $\\arcsin\\frac{x}{a}$ |\n| $\\frac{1}{\\sqrt{x^2\\pm a^2}}$ | $\\ln\\left\\lvert x+\\sqrt{x^2\\pm a^2}\\right\\rvert$ |","x":-1220,"y":1720,"width":940,"height":550},
+		{"id":"m_rat","type":"text","text":"### Рациональная дробь $\\frac{P(x)}{Q(x)}$\n\n1. Степень $P \\ge$ степени $Q$ — сначала делим\n2. Раскладываем $Q$ на множители\n3. Раскладываем дробь на простые\n4. Каждую простую — по таблице или заменой\n\nПример:\n$$\\int\\frac{dx}{x^2-1} = \\frac12\\int\\left(\\frac{1}{x-1} - \\frac{1}{x+1}\\right)dx = \\frac12\\ln\\left|\\frac{x-1}{x+1}\\right| + C.$$","x":10,"y":720,"width":400,"height":460},
+		{"id":"m_trig","type":"text","text":"### Тригонометрия\n\n$\\int \\sin^m x\\cos^n x\\,dx$:\n- одна степень нечётная → отщепляем один множитель, замена $t$ = другая функция\n- обе чётные → понижаем степень: $\\sin^2 x = \\frac{1-\\cos 2x}{2}$\n- общий случай $R(\\sin x, \\cos x)$ → $t = \\operatorname{tg}\\frac{x}{2}$\n\nПример ($t = \\cos x$):\n$$\\int\\sin^3 x\\,dx = \\int(1-\\cos^2 x)\\sin x\\,dx = -\\cos x + \\frac{\\cos^3 x}{3} + C.$$","x":430,"y":720,"width":400,"height":460},
+		{"id":"m_root","type":"text","text":"### Корни\n\n- $\\sqrt[n]{ax+b}$ → $t = \\sqrt[n]{ax+b}$\n- $\\sqrt{a^2-x^2}$ → $x = a\\sin t$\n- $\\sqrt{x^2+a^2}$ → $x = a\\operatorname{tg} t$\n- $\\sqrt{x^2-a^2}$ → $x = \\frac{a}{\\cos t}$\n\nПример ($t = \\sqrt x$, $dx = 2t\\,dt$):\n$$\\int\\frac{dx}{1+\\sqrt x} = \\int\\frac{2t\\,dt}{1+t} = 2\\sqrt x - 2\\ln(1+\\sqrt x) + C.$$","x":850,"y":720,"width":400,"height":460},
+		{"id":"definite","type":"text","text":"### Определённый $\\int_a^b f(x)\\,dx$\n\n**Ньютон–Лейбниц:** находим первообразную $F$ (ветка слева), затем\n$$\\int_a^b f(x)\\,dx = F(b) - F(a).$$\n\n- замена: **меняем пределы** под новую переменную, обратно к $x$ не возвращаемся\n- по частям: $\\int_a^b u\\,dv = uv\\Big|_a^b - \\int_a^b v\\,du$\n- нечётная функция на $[-a;a]$ → $0$; чётная → $2\\int_0^a$","x":1400,"y":440,"width":460,"height":440},
+		{"id":"improper","type":"text","text":"### Несобственный\n\nПредел бесконечен или функция неограничена на отрезке → заменяем на предел:\n$$\\int_a^{\\infty} f\\,dx = \\lim_{b\\to\\infty}\\int_a^b f\\,dx.$$\nПредел конечен — сходится, иначе расходится.\n\nЭталоны:\n- $\\int_1^\\infty\\frac{dx}{x^p}$ сходится при $p > 1$\n- $\\int_0^1\\frac{dx}{x^p}$ сходится при $p < 1$\n\nБез вычисления — признаки сравнения, как у рядов.","x":1400,"y":980,"width":460,"height":460},
+		{"id":"apps","type":"text","text":"### Приложения\n\n- площадь между графиками: $S = \\int_a^b \\big(f(x) - g(x)\\big)\\,dx$, где $f \\ge g$\n- объём тела вращения вокруг $Ox$: $V = \\pi\\int_a^b f^2(x)\\,dx$\n- длина дуги: $L = \\int_a^b\\sqrt{1 + f'^2(x)}\\,dx$\n\nСначала найди точки пересечения графиков — это пределы интегрирования.","x":1400,"y":1540,"width":460,"height":380},
+		{"id":"m_tab","type":"text","text":"### Табличный или почти\n\nУпрощаем: раскрыть скобки, поделить почленно, тригонометрические формулы.\n\nПример:\n$$\\int\\frac{x^2+1}{x}\\,dx = \\int\\left(x + \\frac1x\\right)dx = \\frac{x^2}{2} + \\ln|x| + C.$$","x":-1420,"y":720,"width":400,"height":400},
+		{"id":"m_sub","type":"text","text":"### Замена переменной\n\nЕсть функция $g(x)$ и рядом её производная $g'(x)$ (с точностью до числа) → $t = g(x)$, $dt = g'(x)\\,dx$.\n\nПример ($t = x^2$):\n$$\\int x\\,e^{x^2}dx = \\frac12\\int e^{t}\\,dt = \\frac12 e^{x^2} + C.$$\n\nЧастный случай: $\\int\\frac{g'(x)}{g(x)}dx = \\ln|g(x)| + C$.","x":-900,"y":720,"width":400,"height":460},
+		{"id":"check","type":"text","text":"### Проверка\n\nПродифференцируй ответ — должна получиться подынтегральная функция. Не забудь $+C$.\n\nПосле замены или «по частям» получился новый интеграл — снова вопрос «как выглядит $f(x)$?».","x":-240,"y":1380,"width":460,"height":220,"color":"4"}
+	],
+	"edges":[
+		{"id":"e1","fromNode":"start","fromSide":"bottom","toNode":"d_kind","toSide":"top"},
+		{"id":"e2","fromNode":"d_kind","fromSide":"bottom","toNode":"d_form","toSide":"top","label":"неопределённый"},
+		{"id":"e3","fromNode":"d_kind","fromSide":"right","toNode":"definite","toSide":"top","label":"определённый ∫ₐᵇ"},
+		{"id":"e4","fromNode":"d_form","fromSide":"bottom","toNode":"m_tab","toSide":"top","label":"табличный"},
+		{"id":"e5","fromNode":"d_form","fromSide":"bottom","toNode":"m_sub","toSide":"top","label":"g и g′ рядом"},
+		{"id":"e6","fromNode":"d_form","fromSide":"bottom","toNode":"m_parts","toSide":"top","label":"многочлен · eˣ, ln"},
+		{"id":"e7","fromNode":"d_form","fromSide":"bottom","toNode":"m_rat","toSide":"top","label":"P/Q"},
+		{"id":"e8","fromNode":"d_form","fromSide":"bottom","toNode":"m_trig","toSide":"top","label":"sin, cos"},
+		{"id":"e9","fromNode":"d_form","fromSide":"bottom","toNode":"m_root","toSide":"top","label":"корни"},
+		{"id":"e10","fromNode":"m_tab","fromSide":"bottom","toNode":"check","toSide":"top"},
+		{"id":"e11","fromNode":"m_sub","fromSide":"bottom","toNode":"check","toSide":"top"},
+		{"id":"e12","fromNode":"m_parts","fromSide":"bottom","toNode":"check","toSide":"top"},
+		{"id":"e13","fromNode":"m_rat","fromSide":"bottom","toNode":"check","toSide":"top"},
+		{"id":"e14","fromNode":"m_trig","fromSide":"bottom","toNode":"check","toSide":"top"},
+		{"id":"e15","fromNode":"m_root","fromSide":"bottom","toNode":"check","toSide":"top"},
+		{"id":"e16","fromNode":"m_tab","fromSide":"bottom","toNode":"table","toSide":"top","label":"таблица"},
+		{"id":"e17","fromNode":"definite","fromSide":"left","toNode":"d_form","toSide":"right","label":"нужна первообразная"},
+		{"id":"e18","fromNode":"definite","fromSide":"bottom","toNode":"improper","toSide":"top","label":"предел ∞ или разрыв"},
+		{"id":"e19","fromNode":"definite","fromSide":"right","toNode":"apps","toSide":"right","label":"площадь, объём, длина"}
+	]
+}
